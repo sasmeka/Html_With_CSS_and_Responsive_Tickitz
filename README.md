@@ -58,8 +58,8 @@ This project creates a view of a Tickitz mockup using responsive HTML & CSS.
 ### Built With
 
 This project is based on :
-* [![html5][html5.js]][html-url]
-* [![css3][css3.js]][css-url]
+* [![html5][html5.js]][html5-url]
+* [![css3][css3.js]][css3-url]
 <!-- * [![javascript][javascript.js]][javascript-url] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
