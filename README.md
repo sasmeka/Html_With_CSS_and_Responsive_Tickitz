@@ -58,17 +58,9 @@ This project creates a view of a Tickitz mockup using responsive HTML & CSS.
 ### Built With
 
 This project is based on :
-
-* [![javascript][javascript.js]][javascript-url]
-<!-- * [![pg][pg.js]][pg-url]
-* [![node][node.js]][node-url]
-* [![express][express.js]][express-url]
-* [![bcrypt][bcrypt.js]][bcrypt-url]
-* [![cors][cors.js]][cors-url]
-* [![dotenv][dotenv.js]][dotenv-url]
-* [![jwt][jwt.js]][jwt-url]
-* [![nodemailer][nodemailer.js]][nodemailer-url]
-* [![multer][multer.js]][multer-url] -->
+* [![html5][html5.js]][html-url]
+* [![css3][css3.js]][css-url]
+<!-- * [![javascript][javascript.js]][javascript-url] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,23 +107,9 @@ Project Link: [https://github.com/sasmeka/Html_With_CSS_and_Responsive_Tickitz](
 [forks-url]: https://github.com/sasmeka/Html_With_CSS_and_Responsive_Tickitz/network/members
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/verdi-sasmeka-62b91b132/
+[html5.js]: https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[html5-url]: https://developer.mozilla.org/en-US/docs/Glossary/HTML5
+[css3.js]: https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[css3-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [javascript.js]: https://img.shields.io/badge/javascript-000000?style=for-the-badge&logo=javascript&logoColor=white
 [javascript-url]: https://www.javascript.com/
-[pg.js]: https://img.shields.io/badge/postgresql-20232A?style=for-the-badge&logo=postgresql&logoColor=#4169E1
-[pg-url]: https://www.postgresql.org/
-[node.js]: https://img.shields.io/badge/node.js-35495E?style=for-the-badge&logo=nodedotjs&logoColor=339933
-[node-url]: https://nodejs.org/
-[express.js]: https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white
-[express-url]: https://expressjs.com/
-[bcrypt.js]: https://img.shields.io/badge/bcrypt-000000?style=for-the-badge
-[bcrypt-url]: https://www.npmjs.com/package/bcryptjs
-[cors.js]: https://img.shields.io/badge/cors-000000?style=for-the-badge
-[cors-url]: https://www.npmjs.com/package/cors
-[dotenv.js]: https://img.shields.io/badge/dotenv-000000?style=for-the-badge&logo=dotenv&logoColor=white
-[dotenv-url]: https://www.npmjs.com/package/dotenv
-[jwt.js]: https://img.shields.io/badge/jsonwebtokens-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white
-[jwt-url]: https://www.npmjs.com/package/jsonwebtoken
-[nodemailer.js]: https://img.shields.io/badge/nodemailer-000000?style=for-the-badge
-[nodemailer-url]: https://www.npmjs.com/package/nodemailer
-[multer.js]: https://img.shields.io/badge/multer-000000?style=for-the-badge
-[multer-url]: https://www.npmjs.com/package/multer
