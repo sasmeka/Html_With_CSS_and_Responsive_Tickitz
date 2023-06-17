@@ -88,6 +88,11 @@ form {
     border: none;
 }
 
+.right button a {
+    color: #F7F7FC;
+    text-decoration: none;
+}
+
 .right .visibility {
     position: absolute;
     top: 45%;
