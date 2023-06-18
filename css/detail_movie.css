@@ -1050,8 +1050,17 @@ footer .footer-item4>div>div i {
         margin-top: 20px;
     }
 
-    footer .information .footer-item1 {
-        text-align: center;
+    footer .information .footer-item1 p {
+        margin-top: -20px;
+    }
+
+    footer .information .footer-item2>div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer .information .footer-item2 .title {
+        margin-top: -40px;
     }
 
     footer .information .footer-item3>div {
