@@ -577,7 +577,6 @@ footer .information {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    /* flex-direction: column; */
 }
 
 footer .information .title {
@@ -646,7 +645,6 @@ footer .footer-item2>div p a {
 
 footer .footer-item3>div {
     display: grid;
-    /* flex-direction: column; */
 }
 
 footer .footer-item3>div img {
@@ -758,6 +756,8 @@ footer .footer-item4>div>div i {
 
     /* FOOTER */
     footer {
+        padding-left: 0%;
+        padding-right: 0%;
         align-items: center;
     }
 
@@ -889,6 +889,8 @@ footer .footer-item4>div>div i {
 
     /* FOOTER */
     footer {
+        padding-left: 0%;
+        padding-right: 0%;
         align-items: center;
     }
 

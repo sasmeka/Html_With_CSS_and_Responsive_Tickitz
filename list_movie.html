@@ -18,27 +18,27 @@
             </div>
             <div class="right">
                 <div class="header-bar">
-                    <a href="#">Home</a>
+                    <a href="home.html">Home</a>
                     <a href="list_movie.html">List Movie</a>
                 </div>
                 <div class="profile">
-                    <a onclick="click3()"><i id="button_search" class="fa fa-search" aria-hidden="true"></i></a>
+                    <a onclick="show_search()"><i id="button_search" class="fa fa-search" aria-hidden="true"></i></a>
                     <div class="search" id="search">
                         <i class="fa fa-search" aria-hidden="true"></i>
                         <input type="text" placeholder="Search...">
                     </div>
-                    <a onclick="click5()">
+                    <a onclick="show_menu_dekstop()">
                         <img class="profile" src="img/profile.png" alt="">
                     </a>
                 </div>
-                <a onclick="click()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                <a onclick="show_menu()"><i class="fa fa-bars" aria-hidden="true"></i></a>
             </div>
             <div class="nav-desktop" id="nav-desktop">
-                <a href="#" onclick="click6()">Profile</a>
+                <a href="#" onclick="hidden_menu_dekstop()">Profile</a>
                 <a href="index.html">Logout</a>
             </div>
         </header>
-        <nav id="nav" onclick="click2()">
+        <nav id="nav" onclick="hidden_menu()">
             <div>
                 <div>
                     <i class="fa fa-search" aria-hidden="true"></i>
@@ -52,7 +52,125 @@
             <p class="cop">&copy; 2020 Tickitz. All Rights Reerved.</p>
         </nav>
         <main>
-
+            <section class="content-headers">
+                <div class="content-header">
+                    <h2>List Movie</h2>
+                    <div class="right">
+                        <div class="short">
+                            <select name="" id="">
+                                <option id="label" value="" disabled selected>Sort</option>
+                                <option value="">Title</option>
+                                <option value="">Release</option>
+                            </select>
+                            <i class="fa fa-sort-desc" aria-hidden="true"></i>
+                        </div>
+                        <div class="search">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <input type="text" placeholder="Search...">
+                        </div>
+                    </div>
+                </div>
+                <div class="content-mounth">
+                    <button class="cal1">September</button>
+                    <button class="cal2">October</button>
+                    <button class="cal3">November</button>
+                    <button class="cal4">December</button>
+                    <button class="cal5">January</button>
+                    <button class="cal6">February</button>
+                    <button class="cal7">March</button>
+                    <button class="cal8">April</button>
+                </div>
+            </section>
+            <section class="content">
+                <div class="card" id="m1">
+                    <div class="card-movie">
+                        <img src="img/1.png" alt="">
+                        <div>
+                            <h5>Spider-Man</h5>
+                            <p>Adventure, Action, Sci-Fi</p>
+                            <button>Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" id="m2">
+                    <div class="card-movie">
+                        <img src="img/1.png" alt="">
+                        <div>
+                            <h5>Spider-Man</h5>
+                            <p>Adventure, Action, Sci-Fi</p>
+                            <button>Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" id="m3">
+                    <div class="card-movie">
+                        <img src="img/1.png" alt="">
+                        <div>
+                            <h5>Spider-Man</h5>
+                            <p>Adventure, Action, Sci-Fi</p>
+                            <button>Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" id="m4">
+                    <div class="card-movie">
+                        <img src="img/1.png" alt="">
+                        <div>
+                            <h5>Spider-Man</h5>
+                            <p>Adventure, Action, Sci-Fi</p>
+                            <button>Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" id="m5">
+                    <div class="card-movie">
+                        <img src="img/1.png" alt="">
+                        <div>
+                            <h5>Spider-Man</h5>
+                            <p>Adventure, Action, Sci-Fi</p>
+                            <button>Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" id="m6">
+                    <div class="card-movie">
+                        <img src="img/1.png" alt="">
+                        <div>
+                            <h5>Spider-Man</h5>
+                            <p>Adventure, Action, Sci-Fi</p>
+                            <button>Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" id="m7">
+                    <div class="card-movie">
+                        <img src="img/1.png" alt="">
+                        <div>
+                            <h5>Spider-Man</h5>
+                            <p>Adventure, Action, Sci-Fi</p>
+                            <button>Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" id="m8">
+                    <div class="card-movie">
+                        <img src="img/1.png" alt="">
+                        <div>
+                            <h5>Spider-Man</h5>
+                            <p>Adventure, Action, Sci-Fi</p>
+                            <button>Details</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="content-pagination">
+                <div>
+                    <button class="pag1">1</button>
+                    <button class="pag2">2</button>
+                    <button class="pag3">3</button>
+                    <button class="pag4">4</button>
+                </div>
+            </section>
         </main>
         <footer>
             <div class="information">
@@ -103,26 +221,22 @@
     </div>
 </body>
 <script>
-    function click5() {
+    function show_menu_dekstop() {
         document.getElementById("search").style.display = "none";
         document.getElementById("button_search").style.display = "block";
         document.getElementById("nav-desktop").style.display = "flex";
     }
-    function click6() {
+    function hidden_menu_dekstop() {
         document.getElementById("nav-desktop").style.display = "none";
     }
-    function click4() {
-        document.getElementById("search").style.display = "none";
-        document.getElementById("button_search").style.display = "block";
-    }
-    function click3() {
+    function show_search() {
         document.getElementById("search").style.display = "block";
         document.getElementById("button_search").style.display = "none";
     }
-    function click2() {
+    function hidden_menu() {
         document.getElementById("nav").style.display = "none";
     }
-    function click() {
+    function show_menu() {
         document.getElementById("nav").style.display = "flex";
     }
 </script>
