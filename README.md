@@ -100,7 +100,7 @@ Project Link: [https://github.com/sasmeka/Html_With_CSS_and_Responsive_Tickitz](
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-https://www.markdownguide.org/basic-syntax/#reference-style-links
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/sasmeka/Html_With_CSS_and_Responsive_Tickitz.svg?style=for-the-badge
 [contributors-url]: https://github.com/sasmeka/Html_With_CSS_and_Responsive_Tickitz/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/sasmeka/Html_With_CSS_and_Responsive_Tickitz.svg?style=for-the-badge
