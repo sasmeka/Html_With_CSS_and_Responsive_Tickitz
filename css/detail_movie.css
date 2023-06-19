@@ -318,6 +318,8 @@ main .content-1 {
 }
 
 .content-1 .information_movie {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -388,6 +390,8 @@ main .content-1 {
 }
 
 .content-1 .information_movie .synopsis {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
     margin-top: 20px;
     margin-bottom: 40px;
 }
