@@ -645,6 +645,18 @@ main .content-2 {
     padding: 0 20px;
 }
 
+@media screen and (min-width: 1366px) {
+    .list_ticket {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .list_ticket .card {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
 @media screen and (max-width: 975px) {
 
     /* HEADER */
