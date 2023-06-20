@@ -538,7 +538,7 @@ main .content-headers {
     color: #fff;
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1500px) {
     .content {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
